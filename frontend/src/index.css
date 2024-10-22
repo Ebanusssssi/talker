@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* COLORS */
+/* White */
+/* #E5E5E5 - bg, #FBFBFB - white-shadow, #B0B0B1 - black-shadow */
+/* Red */
+/* #cc0000 - bg, #eb0000 - white-shadow, #ad0000 - black-shadow */
+/* Black */
+/* #242424 - bg, #252525 - white-shadow, #141414 - black-shadow */
+
+:root {
+  --bg-color: #E5E5E5;
+  --light-accent-color: #FBFBFB;
+  --dark-accent-color: #B0B0B1;
+  --text-color: #252525;
+  /* --bg-color: #cc0000;
+  --light-accent-color: #eb0000;
+  --dark-accent-color: #ad0000;
+  --text-color: #d0d0d0; */
+}
+
+* {
+  font-family: monospace;
+}
+
+body, button, input, * {
+  /* cursor: none; */
+}
+
+::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eb0000;
+}
+
+@layer components {
+  .bg-accent {
+    background-color: var(--bg-color);
+  }
+
+  .bg-contra {
+    background-color: var(--text-color);
+  }
+
+  .text-color {
+    color: var(--text-color);
+  }
+
+  .text-contra {
+    color: var(--light-accent-color);
+  }
+
+  .shadow-custom {
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 5px var(--dark-accent-color), -3px -3px 5px var(--light-accent-color);
+  }
+  .shadow-custom-inset {
+    border-radius: 0.5rem;
+    box-shadow: inset 2px 2px 3px var(--dark-accent-color),
+                inset -2px -2px 3px var(--light-accent-color);
+  }
+  .shadow-custom-lg {
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 7px var(--dark-accent-color), -3px -3px 7px var(--light-accent-color);
+  }
+
+
+  .text-outline {
+    -webkit-text-stroke: 1px var(--light-accent-color);
+  }
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
+  }
+
+
+  .cursor {
+    width: 40px;
+    height: 20px;
+    color: rgba(0,0,0,.0);
+    /* border-radius: 50%; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    backdrop-filter: invert(1) blur(0px) saturate(5) hue-rotate(240deg);
+    border-radius: 27% 73% 51% 49% / 39% 100% 0% 61%    ;
+    background: transparent;
+    border: 2px solid white;
+    z-index: 1000;
+  }
+
+  .font-outfit {
+    font-family: "Outfit", sans-serif;
+  }
+
+}
