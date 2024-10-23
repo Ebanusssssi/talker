@@ -14,23 +14,25 @@
 /* #242424 - bg, #252525 - white-shadow, #141414 - black-shadow */
 
 :root {
-  --bg-color: #E5E5E5;
+  /* --bg-color: #E5E5E5;
   --light-accent-color: #FBFBFB;
   --dark-accent-color: #B0B0B1;
-  --text-color: #252525;
+  --text-color: #141414; */
+
+  /* --bg-color: #141414;
+  --light-accent-color: #171717;
+  --dark-accent-color: #111111;
+  --text-color: #FBFBFB; */
   /* --bg-color: #cc0000;
   --light-accent-color: #eb0000;
   --dark-accent-color: #ad0000;
   --text-color: #d0d0d0; */
 }
 
-* {
-  font-family: monospace;
-}
 
-body, button, input, * {
-  /* cursor: none; */
-}
+/* body, button, input, * {
+  cursor: none;
+} */
 
 ::-webkit-scrollbar {
   width: 0.2rem;
@@ -43,6 +45,16 @@ body, button, input, * {
 ::-webkit-scrollbar-track {
   background-color: #eb0000;
 }
+
+* {
+  /* transition: all ease-in-out .3s; */
+  font-family: monospace;
+}
+
+
+/* * {
+  @apply transition-all duration-300;
+} */
 
 @layer components {
   .bg-accent {
@@ -61,26 +73,26 @@ body, button, input, * {
     color: var(--light-accent-color);
   }
 
-  .shadow-custom {
+  /* .shadow-custom {
     border-radius: 0.5rem;
     box-shadow: 3px 3px 5px var(--dark-accent-color), -3px -3px 5px var(--light-accent-color);
-  }
-  .shadow-custom-inset {
+  } */
+  /* .shadow-custom-inset {
     border-radius: 0.5rem;
-    box-shadow: inset 2px 2px 3px var(--dark-accent-color),
-                inset -2px -2px 3px var(--light-accent-color);
-  }
-  .shadow-custom-lg {
+    box-shadow: inset 2px 2px 3px var(--dark-accent-color), inset -2px -2px 3px var(--light-accent-color);
+  } */
+  /* .shadow-custom-lg {
     border-radius: 0.5rem;
     box-shadow: 3px 3px 7px var(--dark-accent-color), -3px -3px 7px var(--light-accent-color);
-  }
+  } */
 
 
-  .text-outline {
-    -webkit-text-stroke: 1px var(--light-accent-color);
+  .text-outline-dark {
+    -webkit-text-stroke: 1px #141414;
   }
-  .text-outline-hover {
-    -webkit-text-stroke: 1px #00ff99;
+
+  .text-outline-light {
+    -webkit-text-stroke: 1px #E5E5E5;
   }
 
 
