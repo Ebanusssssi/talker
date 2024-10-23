@@ -34,22 +34,24 @@
   cursor: none;
 } */
 
-::-webkit-scrollbar {
-  width: 0.2rem;
+/* ::-webkit-scrollbar {
+  width: 0.1rem;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #fff;
+  background: #ffffff;
+  background: rgb(14,14,14);
+  background: linear-gradient(0deg, rgba(14,14,14,1) 59%, rgba(14,14,14,0) 59%);
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #eb0000;
+  background-color: transparent;
 }
 
 * {
   transition: all ease-in-out .3s;
   font-family: monospace;
-}
+} */
 
 
 /* * {

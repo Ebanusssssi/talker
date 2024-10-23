@@ -2,7 +2,7 @@ import { CgSearch } from "react-icons/cg";
 
 const Search = () => {
   return (
-    <div className="w-full relative">
+    <div className="w-full relative flex flex-col items-center gap-2">
       <input 
         type="text" 
         placeholder="Search" 
