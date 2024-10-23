@@ -3,7 +3,8 @@ import { IoSunny, IoMoonSharp } from "react-icons/io5";
 import useLocalStorage from "use-local-storage"
 
 const ModeSwitcher = ({ darkMode }) => {
-  const [mode, setMode] = useLocalStorage(false)
+  const preference = window.matchMedia("(prefers-color-scheme: dark)").matches
+  const [mode, setMode] = useLocalStorage("darkMode", preference)
 
   // PASSING MODE TO A PARENT
   useEffect(() => {
