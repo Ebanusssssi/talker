@@ -8,7 +8,7 @@ const ChatItem = () => {
        hover:shadow-custom-light-inset
         dark:hover:shadow-custom-dark-inset cursor-pointer"
       >
-          <div className="min-w-10 h-10 rounded-md overflow-hidden">
+          <div className="min-w-10 max-w-10 h-10 rounded-md overflow-hidden">
             <img 
               src={User} 
               alt="user-image" 
