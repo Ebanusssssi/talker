@@ -47,7 +47,7 @@
 }
 
 * {
-  /* transition: all ease-in-out .3s; */
+  transition: all ease-in-out .3s;
   font-family: monospace;
 }
 
