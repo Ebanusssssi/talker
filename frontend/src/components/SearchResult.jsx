@@ -15,9 +15,9 @@ const SearchResult = () => {
               className="w-full h-full object-cover object-center" 
             />
           </div>
-          <div className="flex flex-col text-dark-text dark:text-light-text">
-            <span className="text-sm font-semibold font-outfit">Vadym</span>
-            <span className="whitespace-nowrap flex-nowrap text-xs font-normal font-outfit text-dark-text dark:text-light-text">
+          <div className="flex flex-col truncate">
+            <span className="text-sm font-semibold font-outfit text-dark-text dark:text-light-text">Vadym</span>
+            <span className="text-xs font-normal font-outfit text-dark-text/80 dark:text-light-text/80 truncate">
               last seen 1 hour ago
             </span>
           </div>

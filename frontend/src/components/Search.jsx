@@ -13,7 +13,7 @@ const Search = () => {
       />
       <CgSearch 
         className="absolute right-2 top-[50%] translate-y-[-50%]
-      text-dark-text/20 dark:text-light-text/20 pointer-events-none"/>
+      text-dark-text/50 dark:text-light-text/50 pointer-events-none"/>
     </div>
   )
 }
