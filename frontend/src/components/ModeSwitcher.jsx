@@ -27,7 +27,7 @@ const ModeSwitcher = ({ darkMode }) => {
         shadow-custom-light dark:shadow-custom-dark
          text-lg font-semibold font-outfit"
       >
-        {!mode ? <IoMoonSharp className="text-dark-text group-active:rotate-180 group-active:opacity-0" /> : <IoSunny className="text-light-text group-active:-rotate-180 group-active:opacity-0"/>}
+        {!mode ? <IoMoonSharp className="text-dark-bg group-active:rotate-180 group-active:opacity-0" /> : <IoSunny className="text-light-bg group-active:-rotate-180 group-active:opacity-0"/>}
       </div>
     </div>
   )

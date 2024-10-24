@@ -2,42 +2,38 @@ import ChatItem from "./ChatItem"
 
 const ChatList = () => {
   return (
-    <div className="h-full rounded-md">
-      <div 
-      className="h-full">
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-
-      </div>
+    <div className="h-fit py-1.5 shadow-custom-light-inset dark:shadow-custom-dark-inset rounded-md">
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
     </div>
   )
 }

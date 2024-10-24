@@ -17,7 +17,7 @@ const SearchResult = () => {
           </div>
           <div className="flex flex-col text-dark-text dark:text-light-text">
             <span className="text-sm font-semibold font-outfit">Vadym</span>
-            <span className="whitespace-nowrap flex-nowrap text-xs font-normal font-outfit text-dark-text/40 dark:text-light-text/30">
+            <span className="whitespace-nowrap flex-nowrap text-xs font-normal font-outfit text-dark-text dark:text-light-text">
               last seen 1 hour ago
             </span>
           </div>
