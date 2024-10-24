@@ -2,11 +2,11 @@ import User from "../assets/1.jpg"
 
 const ChatItem = () => {
   return (
-    <div className="mt-1 overflow-hidden z-10">
+    <div className="overflow-hidden">
       <div 
-        className="py-1.5 px-1.5 rounded-md flex items-center gap-1.5
-       hover:shadow-custom-light-inset
-        dark:hover:shadow-custom-dark-inset cursor-pointer"
+        className="py-2 px-2 mx-2 my-1.5 rounded-md flex items-center gap-1.5
+        active:shadow-custom-light-inset shadow-custom-light dark:shadow-custom-dark
+        dark:active:shadow-custom-dark-inset cursor-pointer"
       >
           <div className="min-w-10 max-w-10 h-10 rounded-md overflow-hidden">
             <img 

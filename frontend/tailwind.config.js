@@ -9,15 +9,16 @@ export default {
       colors: {
         'light': {
           'bg': '#E5E5E5',
-          'shadowLight': '#FBFBFB',
-          'shadowDark': '#B0B0B1',
-          'text': '#FBFBFB',
+          'text': '#E8E4E5',
         },
         'dark': {
-          'bg': '#141414',
-          'shadowLight': '#171717',
-          'shadowDark': '#111111',
+          'bg': '#353638',
           'text': '#141414',
+
+          // 'bg': '#141414',
+          // 'shadowLight': '#171717',
+          // 'shadowDark': '#111111',
+          // 'text': '#141414',
         },
       },
       boxShadow: {
@@ -25,9 +26,13 @@ export default {
         'custom-light-inset': 'inset 2px 2px 3px #B0B0B1, inset -2px -2px 3px #FBFBFB',
         'custom-light-lg': '3px 3px 7px #B0B0B1, -3px -3px 7px #FBFBFB',
   
-        'custom-dark': '3px 3px 5px #111111, -3px -3px 5px #171717',
-        'custom-dark-inset': 'inset 2px 2px 3px #111111, inset -2px -2px 3px #171717',
-        'custom-dark-lg': '3px 3px 7px #111111, -3px -3px 7px #171717',
+        'custom-dark': '3px 3px 5px #232325, -3px -3px 5px #43444A',
+        'custom-dark-inset': 'inset 2px 2px 3px #232325, inset -2px -2px 3px #43444A',
+        'custom-dark-lg': '3px 3px 7px #232325, -3px -3px 7px #43444A',
+
+        // 'custom-dark': '3px 3px 5px #111111, -3px -3px 5px #171717',
+        // 'custom-dark-inset': 'inset 2px 2px 3px #111111, inset -2px -2px 3px #171717',
+        // 'custom-dark-lg': '3px 3px 7px #111111, -3px -3px 7px #171717',
       },
     }
   },

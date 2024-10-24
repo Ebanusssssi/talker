@@ -4,9 +4,11 @@ import Navbar from './Navbar'
 const Sidebar = () => {
   return (
     <div 
-      className="w-full pb-2 sm:min-w-[260px] h-full flex-[1] text-sm font-semibold
-      text-dark-text dark:text-light-text overflow-x-hidden overflow-y-hidden
-      font-outfit md:border-r-2 md:border-white/30 dark:border-black/10"
+      className="flex-[1] w-full h-full sm:min-w-[260px] text-sm font-semibold
+      text-dark-text dark:text-light-text font-outfit overflow-y-scroll relative
+      divide-y-2 dark:divide-[#232325]/50 divide-white
+      [&::-webkit-scrollbar]:w-[2px] [&::-webkit-scrollbar-track]:bg-transparent
+    [&::-webkit-scrollbar-thumb]:bg-dark-bg/20 dark:[&::-webkit-scrollbar-thumb]:bg-light-bg/10"
     >
       <Navbar />
       <ChatList />

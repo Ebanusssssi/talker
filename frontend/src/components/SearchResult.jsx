@@ -2,11 +2,11 @@ import User from "../assets/1.jpg"
 
 const SearchResult = () => {
   return (
-    <div className="mt-1 overflow-hidden">
+    <div className="pb-2 pt-4 px-2 overflow-hidden">
       <div 
         className="py-1.5 px-1.5 rounded-md flex items-center gap-1.5
-      bg-light-bg/50 dark:bg-dark-bg/50 hover:shadow-custom-light-inset
-        dark:hover:shadow-custom-dark-inset cursor-pointer"
+      bg-light-bg/50 dark:bg-dark-bg/50 shadow-custom-light dark:shadow-custom-dark active:shadow-custom-light-inset
+        dark:active:shadow-custom-dark-inset cursor-pointer"
       >
           <div className="min-w-10 max-w-10 h-10 rounded-md overflow-hidden">
             <img 
