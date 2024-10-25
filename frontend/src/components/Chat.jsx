@@ -5,6 +5,7 @@ import MessagesArea from "./MessagesArea"
 
 const Chat = () => {
   return (
+    //  !w-0 - to hide / show
     <div 
       className="hidden md:flex md:flex-[2] w-full h-full 
       text-sm font-semibold text-[#141414] font-outfit

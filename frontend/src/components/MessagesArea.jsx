@@ -5,7 +5,7 @@ const MessagesArea = () => {
   return (
     <div 
       className="h-dvh overflow-y-auto
-      flex flex-col items-start justify-between py-3 px-3 
+      flex flex-col gap-7 items-start justify-between py-7 px-3 
       shadow-custom-light-inset dark:shadow-custom-dark-inset
       bg-light-bg dark:bg-dark-bg rounded-md
       [&::-webkit-scrollbar]:w-[4px] [&::-webkit-scrollbar-track]:bg-transparent
