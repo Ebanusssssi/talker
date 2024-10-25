@@ -8,52 +8,15 @@ const MessagesArea = () => {
       flex flex-col items-start justify-between py-3 px-3 
       shadow-custom-light-inset dark:shadow-custom-dark-inset
       bg-light-bg dark:bg-dark-bg rounded-md
-      [&::-webkit-scrollbar]:w-[2px] [&::-webkit-scrollbar-track]:bg-transparent
-    [&::-webkit-scrollbar-thumb]:bg-dark-bg/20 dark:[&::-webkit-scrollbar-thumb]:bg-light-bg/10"
+      [&::-webkit-scrollbar]:w-[4px] [&::-webkit-scrollbar-track]:bg-transparent
+    [&::-webkit-scrollbar-thumb]:bg-black/20 dark:[&::-webkit-scrollbar-thumb]:bg-white/50
+      [&::-webkit-scrollbar-thumb]:rounded-full"
     >
       <Message />
       <Message />
       <Message />
       <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
-      <Message />
+
     </div>
   )
 }

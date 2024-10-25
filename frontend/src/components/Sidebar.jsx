@@ -6,8 +6,9 @@ const Sidebar = () => {
     <div 
       className="flex-[1] w-full h-full sm:min-w-[260px] text-sm font-semibold
       text-dark-text dark:text-light-text font-outfit overflow-y-scroll relative
-      [&::-webkit-scrollbar]:w-[2px] [&::-webkit-scrollbar-track]:bg-transparent
-    [&::-webkit-scrollbar-thumb]:bg-dark-bg/20 dark:[&::-webkit-scrollbar-thumb]:bg-light-bg/10"
+      [&::-webkit-scrollbar]:w-[4px] [&::-webkit-scrollbar-track]:bg-transparent
+    [&::-webkit-scrollbar-thumb]:bg-black/20 dark:[&::-webkit-scrollbar-thumb]:bg-white/50
+      [&::-webkit-scrollbar-thumb]:rounded-full"
     >
       <Navbar />
       <ChatList />

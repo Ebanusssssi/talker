@@ -25,7 +25,7 @@ const ModeSwitcher = ({ darkMode }) => {
         className="py-2 px-5 rounded-md h-14 sm:h-fit w-fit
       bg-light-bg dark:bg-dark-bg flex items-center justify-center
         shadow-custom-light dark:shadow-custom-dark
-         text-lg font-semibold font-outfit"
+         text-lg font-semibold font-outfit relative"
       >
         {!mode ? <IoMoonSharp className="text-dark-bg group-active:rotate-180 group-active:opacity-0" /> : <IoSunny className="text-light-bg group-active:-rotate-180 group-active:opacity-0"/>}
       </div>

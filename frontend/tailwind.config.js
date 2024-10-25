@@ -30,6 +30,7 @@ export default {
           // 'text': '#141414',
         },
       },
+
       boxShadow: {
         'custom-light': '3px 3px 5px #B0B0B1, -3px -3px 5px #FBFBFB',
         'custom-light-inset': 'inset 2px 2px 3px #B0B0B1, inset -2px -2px 3px #FBFBFB',
@@ -54,6 +55,23 @@ export default {
         // 'custom-dark': '3px 3px 5px #111111, -3px -3px 5px #171717',
         // 'custom-dark-inset': 'inset 2px 2px 3px #111111, inset -2px -2px 3px #171717',
         // 'custom-dark-lg': '3px 3px 7px #111111, -3px -3px 7px #171717',
+      },
+      
+      animation: {
+        ping: 'ping 0.3s linear',
+      },
+
+      keyframes: {
+        ping: {
+          '0%': {
+            transform: 'scale(1)',
+            opacity: 1,
+          },
+          '100%%': {
+            transform: 'scale(12)',
+            opacity: 0,
+          },
+        },
       },
     }
   },

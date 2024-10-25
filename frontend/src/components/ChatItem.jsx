@@ -1,6 +1,8 @@
 import { useState } from "react";
 import User from "../assets/1.jpg"
+
 import { TiPinOutline } from "react-icons/ti";
+
 
 const ChatItem = () => {
   const [pinned, setPinned] = useState(false)
